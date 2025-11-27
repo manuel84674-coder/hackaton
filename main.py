@@ -1,5 +1,5 @@
 class PlanPago:
-    """Clase para gestionar un plan de pago individual"""
+    """Clase para gestionar un plan de pago """
     
     def __init__(self, nombre, monto_total, cantidad_cuotas, tasa_interes=0):
         self.nombre = nombre
@@ -112,4 +112,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
